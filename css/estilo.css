@@ -1,0 +1,88 @@
+nav{
+    padding-top: 50px !important;
+}
+body{
+    background-color: #ededed;
+    font-family: 'Inter', sans-serif !important;
+}
+nav ul li:hover{
+    background-color: #70181b;
+}
+.card i{
+    text-align: center;
+}
+.card h5{
+    text-align: center;
+}
+
+.foot .fa-facebook:hover{
+    color:#3b5998 !important;
+    font-size: 5rem !important;
+    transition: font-size .5s;
+}
+.foot .fa-twitter:hover{
+    color:#1DA1F2 !important;
+    font-size: 5rem !important;
+    transition: font-size .5s;
+}
+.foot .fa-instagram:hover{
+    color:#E1306C !important;
+    font-size: 5rem !important;
+    transition: font-size .5s;
+}
+.foot .fa-youtube:hover{
+    color:#FF0000 !important;
+    font-size: 5rem !important;
+    transition: font-size .5s;
+}
+
+.foot_responsive .fa-facebook:hover{
+    color:#3b5998 !important;
+}
+.foot_responsive .fa-twitter:hover{
+    color:#1DA1F2 !important;
+}
+.foot_responsive .fa-instagram:hover{
+    color:#E1306C !important;
+}
+.foot_responsive .fa-youtube:hover{
+    color:#FF0000 !important;
+}
+
+.nav_responsive{
+    display: none;
+}
+@media only screen and (max-width: 1000px){
+    .navbar-expand-lg {
+        display: none;
+    }
+    .nav_responsive {
+        display: block;
+    }
+}
+
+.foot_responsive{
+    display: none;
+}
+@media only screen and (max-width: 750px){
+    .foot{
+        display: none;
+    }
+    .foot_responsive{
+        display: block;
+    }
+}
+
+div.row{
+    margin-right: 0px;
+ }
+ 
+ div.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+ }
+ a img{
+     position: relative !important;
+     z-index: 1 !important;
+     padding-top: 10px !important;
+ }
